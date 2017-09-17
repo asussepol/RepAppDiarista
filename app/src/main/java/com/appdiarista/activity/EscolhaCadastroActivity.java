@@ -20,6 +20,8 @@ public class EscolhaCadastroActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void irParaCadContratante(View v){
+        Intent intent = new Intent(this, CadContratanteActivity.class);
+        startActivity(intent);
 
     }
 }

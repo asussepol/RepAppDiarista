@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/icone_user"
+        android:contentDescription="@null"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/preto"
+            android:textSize="18sp"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:id="@+id/txtSobreMim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/preto"
+            android:textSize="18sp"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:id="@+id/txtTelefone"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/vermelho"
+            android:textSize="22sp"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</LinearLayout>

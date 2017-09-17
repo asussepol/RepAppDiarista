@@ -7,18 +7,18 @@ public class Contratante extends Usuario{
     private Integer id;
     private String nome;
     private String telefone;
-    private Date dataNascimento;
+    private String dataNascimento;
     private String cpf;
     private String email;
     private String sobreMim;
     private Double latitude;
     private Double longitude;
 
-    public Contratante() {
+    public Contratante(int id, String nome, String telefone, String sobreMim) {
     }
 
-    public Contratante(Integer id, String nome, String telefone, Date dataNascimento, String cpf, String email,
-                       String sobreMim, BigDecimal valorDiaria, Double latitude, Double longitude) {
+    public Contratante(Integer id, String nome, String telefone,
+                       Double latitude, Double longitude) {
         this.id = id;
         this.nome = nome;
         this.telefone = telefone;
@@ -30,7 +30,7 @@ public class Contratante extends Usuario{
         this.longitude = longitude;
     }
 
-    public Contratante(String nome, String telefone, Date dataNascimento, String cpf, String email, String sobreMim,
+    public Contratante(String nome, String telefone, String dataNascimento, String cpf, String email, String sobreMim,
                         Double latitude, Double longitude) {
         this.nome = nome;
         this.telefone = telefone;
@@ -66,11 +66,11 @@ public class Contratante extends Usuario{
         this.telefone = telefone;
     }
 
-    public Date getDataNascimento() {
+    public String getDataNascimento() {
         return dataNascimento;
     }
 
-    public void setDataNascimento(Date dataNascimento) {
+    public void setDataNascimento(String dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
 

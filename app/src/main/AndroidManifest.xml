@@ -43,8 +43,11 @@
             android:parentActivityName="com.appdiarista.activity.EscolhaCadastroActivity" />
         <activity
             android:name="com.appdiarista.activity.ListDiaristasActivity"
-            android:label="Diaristas Disponíveis"></activity>
-        <activity android:name="com.appdiarista.activity.PerfilDiaristaActivity"></activity>
+            android:label="Diaristas Disponíveis" />
+        <activity android:name="com.appdiarista.activity.PerfilDiaristaActivity" />
+        <activity android:name="com.appdiarista.activity.CadContratanteActivity" />
+        <activity android:name="com.appdiarista.activity.ListaContratanteActivity"
+            android:label="Lista de Contratantes"></activity>
     </application>
 
 </manifest>
