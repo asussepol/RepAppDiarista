@@ -23,6 +23,7 @@ public class Conexao {
 //            db.execSQL("insert into tipoUsuario(id,descricao) values (1,'DIARISTA');");
 //            db.execSQL("insert into tipoUsuario(id,descricao) values (2,'CONTRATANTE');");
 //            db.execSQL("insert into usuario (login,senha,tipoUsuario_id) values('fredericond@hotmail.com','1234',2);");
+
         }
         return db;
     }
